@@ -1,73 +1,190 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-<title>Thananya Resume</title>
-<link rel="stylesheet" href="style.css">
-</head>
+* {
+    box-sizing: border-box;
+}
 
 
-<body>
+body {
 
-<nav>
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="skills.html">Skills</a>
-<a href="portfolio.html">Portfolio</a>
-</nav>
+    font-family: Arial, sans-serif;
+    background: #f5f7ff;
+    margin: 0;
+    color: #333;
 
-
-<div class="container">
-
-<img src="profile.jpg" class="profile">
+}
 
 
-<h1>ธนัญญา พลตรี</h1>
-
-<p class="subtitle">
-Student | Programming & Technology
-</p>
 
 
-<h2>About Me</h2>
+nav {
 
-<p>
-นักศึกษามหาวิทยาลัยศิลปากร 
-สนใจด้าน Programming และ Technology 
-มีความสนใจในการพัฒนาเว็บไซต์และเรียนรู้เทคโนโลยีใหม่ ๆ
-</p>
+    background: #2563eb;
+    padding: 15px;
+    text-align: center;
 
-
-<h2>Education</h2>
-
-<p>
-มหาวิทยาลัยศิลปากร
-</p>
+}
 
 
-<h2>Skills</h2>
+nav a {
 
-<ul>
-<li>HTML</li>
-<li>CSS</li>
-<li>JavaScript</li>
-<li>Git & GitHub</li>
-</ul>
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
 
-
-<h2>Contact</h2>
-
-<p>
-Email:
-<a href="mailto:thananphontree@gmail.com">
-thananphontree@gmail.com
-</a>
-</p>
+}
 
 
-</div>
+nav a:hover {
+
+    text-decoration: underline;
+
+}
 
 
-</body>
 
-</html>
+
+.container {
+
+    width: 70%;
+    margin: 40px auto;
+    background: white;
+
+    padding: 35px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+
+
+.profile {
+
+    width: 150px;
+    height: 150px;
+
+    border-radius: 50%;
+
+    display: block;
+    margin: auto;
+
+    object-fit: cover;
+
+}
+
+
+
+
+h1 {
+
+    text-align: center;
+    color: #2563eb;
+
+}
+
+
+h2 {
+
+    color: #2563eb;
+
+    border-bottom: 2px solid #ddd;
+
+    padding-bottom: 5px;
+
+    margin-top: 30px;
+
+}
+
+
+
+
+.subtitle {
+
+    text-align: center;
+
+    color: #666;
+
+    font-size: 18px;
+
+}
+
+
+ul {
+
+    line-height: 1.8;
+
+}
+
+
+a {
+
+    color: #2563eb;
+
+}
+
+
+
+.project {
+
+    background: #f8fafc;
+
+    padding: 20px;
+
+    margin: 20px 0;
+
+    border-radius: 15px;
+
+    border-left: 5px solid #2563eb;
+
+}
+
+
+.project h2 {
+
+    border: none;
+
+    margin-top: 0;
+
+}
+
+
+
+.contact {
+
+    text-align: center;
+
+}
+
+
+
+
+<@&1293482870727381015>dia screen and (max-width:768px) {
+
+
+    .container {
+
+        width: 90%;
+
+        padding: 20px;
+
+    }
+
+
+    nav a {
+
+        display: block;
+
+        margin: 10px;
+
+    }
+
+
+    h1 {
+
+        font-size: 26px;
+
+    }
+
+
+}
