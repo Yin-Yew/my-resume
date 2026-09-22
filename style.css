@@ -2,7 +2,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: Arial, sans-serif;
     background: #f5f7ff;
@@ -11,13 +10,11 @@ body {
     transition: 0.3s;
 }
 
-
 nav {
     background: #2563eb;
     padding: 15px;
     text-align: center;
 }
-
 
 nav a {
     color: white;
@@ -26,11 +23,9 @@ nav a {
     font-size: 16px;
 }
 
-
 nav a:hover {
     text-decoration: underline;
 }
-
 
 button {
     background: white;
@@ -43,11 +38,9 @@ button {
     font-weight: bold;
 }
 
-
 button:hover {
     opacity: 0.8;
 }
-
 
 .container {
     width: 70%;
@@ -58,7 +51,6 @@ button:hover {
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
     animation: fadeIn 0.5s;
 }
-
 
 @keyframes fadeIn {
     from {
@@ -72,7 +64,6 @@ button:hover {
     }
 }
 
-
 .profile {
     width: 150px;
     height: 150px;
@@ -82,19 +73,16 @@ button:hover {
     margin: auto;
 }
 
-
 h1 {
     text-align: center;
     color: #2563eb;
 }
-
 
 .subtitle {
     text-align: center;
     color: #666;
     font-size: 18px;
 }
-
 
 h2 {
     color: #2563eb;
@@ -103,16 +91,13 @@ h2 {
     margin-top: 30px;
 }
 
-
 p {
     line-height: 1.7;
 }
 
-
 ul {
     line-height: 2;
 }
-
 
 .project {
     background: #f8fafc;
@@ -123,45 +108,37 @@ ul {
     transition: 0.3s;
 }
 
-
 .project:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
-
 
 .project h2 {
     border: none;
     margin-top: 0;
 }
 
-
 .dark {
     background: #111827;
     color: white;
 }
 
-
 .dark .container {
     background: #1f2937;
 }
-
 
 .dark h1,
 .dark h2 {
     color: #60a5fa;
 }
 
-
 .dark .project {
     background: #374151;
 }
 
-
 .dark nav {
     background: #111827;
 }
-
 
 @media screen and (max-width:768px) {
 
@@ -170,17 +147,14 @@ ul {
         padding: 20px;
     }
 
-
     nav a {
         display: block;
         margin: 12px;
     }
 
-
     button {
         margin-top: 10px;
     }
-
 
     h1 {
         font-size: 26px;
